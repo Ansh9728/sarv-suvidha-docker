@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "684880463559",
+    "project_id": "flutter-sarv-project",
+    "storage_bucket": "flutter-sarv-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684880463559:android:4d0dc6b6ac90f4819b60e2",
+        "android_client_info": {
+          "package_name": "com.example.kpa_erp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUP_pwARUaqYwOXqFxtMZD5_w7fnH-cRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

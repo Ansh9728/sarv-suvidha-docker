@@ -1,0 +1,22 @@
+# Use latest Flutter with Dart 3.8
+FROM ghcr.io/cirruslabs/flutter:latest AS build
+
+WORKDIR /app
+
+# Copy the Flutter project files
+COPY KPA-ERP-FE/ .
+
+# Get dependencies and build the web release
+RUN flutter pub get
+RUN flutter build web --release
+
+# Use a lightweight web server to serve the built app
+FROM nginx:alpine
+
+# Copy the built web app from the build stage
+COPY --from=build /app/build/web /usr/share/nginx/html
+
+# Expose port 80 to serve the app
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
