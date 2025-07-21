@@ -44,35 +44,35 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBOufMkxRE_vz_hOAD6qXlPUFDG1c97IUE',
-    appId: '1:684880463559:web:d1c7e4472452aeed9b60e2',
-    messagingSenderId: '684880463559',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'flutter-sarv-project',
     authDomain: 'flutter-sarv-project.firebaseapp.com',
     storageBucket: 'flutter-sarv-project.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAUP_pwARUaqYwOXqFxtMZD5_w7fnH-cRk',
-    appId: '1:684880463559:android:4d0dc6b6ac90f4819b60e2',
-    messagingSenderId: '684880463559',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'flutter-sarv-project',
     storageBucket: 'flutter-sarv-project.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCzigEbBVdJrDu1AeBoPm-Z2Y4fu27Vc74',
-    appId: '1:684880463559:ios:9272120bf7364dce9b60e2',
-    messagingSenderId: '684880463559',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'flutter-sarv-project',
     storageBucket: 'flutter-sarv-project.firebasestorage.app',
     iosBundleId: 'com.example.kpaErp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBOufMkxRE_vz_hOAD6qXlPUFDG1c97IUE',
-    appId: '1:684880463559:web:adf497ba6c4ef4139b60e2',
-    messagingSenderId: '684880463559',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
     projectId: 'flutter-sarv-project',
     authDomain: 'flutter-sarv-project.firebaseapp.com',
     storageBucket: 'flutter-sarv-project.firebasestorage.app',
